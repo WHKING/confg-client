@@ -24,7 +24,7 @@ public class ClientController {
 
     @RequestMapping("/from")
     public String from(){
-//        return environment.getProperty("from","undefined");
-        return this.from;
+        return environment.getProperty("from","undefined");
+//        return this.from;
     }
 }
